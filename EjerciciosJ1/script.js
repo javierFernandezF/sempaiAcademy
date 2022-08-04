@@ -1,6 +1,6 @@
 /*Ejercicio1
 
-    Realizar un programa que pida cargar una fecha cualquiera,
+    Realizar un programa que pida cargar una fecha cualquiera, fhtrhtr
     luego verificar si dicha fecha corresponde a Navidad
     (se debe cargar por separado el día, el mes y el año)
 
@@ -305,8 +305,42 @@
 
     let product = parseInt(prompt("Ingrese valor del producto."));
     let money = parseInt(prompt("Ingresar dinero entregado."));
+    let subtraction = money - product
 
-    if ((product % 5) < 0 || (product % 5) > 0) {
-        console.log("El producto debe ser multiplo de 5")
+         if ((product % 5) != 0 && money > 0 && (money % 50) === 0) {
+            console.log("El valor del producto debe ser multiplo de 5")
+        } else if ((product % 5) != 0 && money <= 0 && (money % 50) === 0) {
+            console.log("El valor del producto debe ser multiplo de 5, el valor ingresado de dinero no es valido.")
+        } else if ((product % 5) === 0 && money <= 0 && (money % 50) === 0) {
+            console.log("El valor ingresado de dinero es invalido.")
+        } else if ((product % 5) === 0 && money <= 0 && (money % 50) != 0) {
+            console.log("El valor ingresado de dinero es invalido.")
+        } else if ((product % 5) === 0 && money === 0 && (money % 50) != 0) {
+            console.log("El valor ingresado de dinero es invalido.")
+        } else if ((product % 5) != 0 && money <= 0 && (money % 50) != 0) {
+            console.log ("Todo pal orto escribiste")
+        }   else if ((product % 5) === 0 && money <= 0 && (money % 50) === 0) {
+            console.log ("El valor ingresado de dinero es invalido")
+        }   else if ((product % 5) === 0 && money > 0 && (money % 50) === 0) {
+            if (subtraction > 550) {
+                console.log("La maquina no tiene cambio suficiente.")
+            } else if (subtraction <= 300 && (subtraction % 10) === 0 ) {
+                console.log("El cambio seran " + (subtraction/10) + " monedas de 10.")
+            }  else if (subtraction <= 300 && (subtraction % 10) != 0 ) {
+                console.log("El cambio seran " + (subtraction/10) + " monedas de 10 mas 1 moneda de 5.")
+            } else if (subtraction > 300 && subtraction <=550) {
+                console.log("El cambio seran 30 monedas de 10 mas " + ((subtraction-300)/5) + " monedas de 5.")
+            }
+        }
 
-    }
+        
+
+
+
+
+
+
+
+
+
+        
