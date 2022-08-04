@@ -1,0 +1,96 @@
+.big-box {
+    display: flex;
+    
+    height: 900px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace ;
+
+}
+.one {
+    
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.top-story, .other-top-stories, .news-and-buzz {
+    border: black solid 1px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-story {
+    height: 21%;
+}
+.other-top-stories {
+    height: 30%;
+}
+.news-and-buzz, .fratured-ad {
+    height: 30%;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    align-items: center;
+    
+}
+h1, nav, h2, p, .fratured-ad {
+    border: black solid 1px;
+    width: 90%;
+    margin: auto;
+
+}
+
+h1 {
+    height: 4%;
+    padding-top: 3% ;
+    padding-left: 4%;
+    border: none;
+        
+}
+nav {
+    height: 25%;
+    
+}
+h2 {
+    height: 5%;
+    padding-left: 4%;
+    border: none;
+}
+p {
+    height: 3%;
+}
+.fratured-ad {
+    display: flex;
+    justify-content: start;
+    border: none;
+    
+}
+.fratured, .ad {
+    border: black solid 1px;
+    margin: none;
+}
+.fratured {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blank {
+    width: 10%;
+}
+.ad {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-top-stories, .news-and-buzz, p, .fratured {
+    background-color: rgb(159, 125, 125);
+}

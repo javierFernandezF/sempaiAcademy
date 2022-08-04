@@ -1,0 +1,159 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: black 1px solid;
+    height: 220vh;
+    background-color: #fd38c2;
+    margin: 5% 1%;
+    display: grid;
+    grid-template-rows: 5% 40% 30% 20% 5%;
+}
+header {
+    background-color: pink;
+   
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    
+}
+header a {
+    text-decoration: none;
+    color: rgb(252, 117, 139);
+    margin: 4px;
+}
+header input {
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px solid rgb(252, 117, 139)
+}
+nav { 
+    background-color: pink;
+    background-image: url(/photo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.divnav {
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.divnav1 {
+    background-color: pink;
+    width: 30vw;
+    height: 5vh;
+    margin: 5px auto;
+        
+}
+.divnav2 {
+    background-color: pink;
+    width: 40vw;
+    height: 5vh;
+    margin: 5px auto;
+}
+.divnav input {
+    width: 20vw;
+    height: 3vh;
+    border-radius: 15px;
+    margin: 5px ;
+    
+}
+section {
+    background-color: white;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 98%;
+    width: 98%;
+    list-style: none;
+    
+    
+    
+}
+section ul li {
+    
+    
+    margin: auto;
+    
+}
+.img1, .img2, .img3 {
+    width: 15vw;
+    height: 30vh;
+    object-fit: cover;
+}
+.lidiv {
+    width: 15vw;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.lorem {
+    border: 1px solid black;
+    border-radius: 18px;
+}
+.aside2 {
+    background-color: rgb(252, 117, 139);
+    display: grid;
+    grid-template-columns: 70% 25%;
+    
+
+}
+.asidephoto, .aside2 div {
+    background-color: blue;
+    margin: auto 10%;
+    height: 70%;
+}
+.aside2 div p {
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #ffeefa;
+    display: grid;
+    grid-template-columns: 85% auto;
+}
+.footer1 {
+    display: grid;
+    grid-template-columns: repeat(8, 10%);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2%;
+
+    
+}
+.footer2 {
+    background-color: cadetblue;
+}
+.minibox {
+    
+    background-color: aqua;
+    border: 1px black solid;
+    ;
+}
+.minibox1 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.minibox2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+.minibox3 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+
+

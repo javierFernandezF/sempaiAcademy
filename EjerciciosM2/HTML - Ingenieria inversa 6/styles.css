@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: tahoma;
+}
+header {
+    height: 6vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vh;
+    align-items: center;
+
+}
+.logo {
+    background-color: #899cb8;
+    height: 30px;
+    width: 90px;
+}
+nav {
+    
+    width: 45%;
+}
+a {
+    text-decoration: none;
+    color: #899cb8;
+    font-size: 0.9rem;
+    margin: auto 4%;
+}
+.bigphoto1 {
+    height: 44vh;
+    background-image: url(/urban-city-14685139.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;  
+}
+.bigphoto1 h1 {
+    background-color: black;
+    color: #899cb8;
+    padding: 4px;
+    font-size: 1.8rem;
+}
+.bigphoto1 p {
+    background-color: black;
+    color: #899cb8;
+    width: 50%;
+    padding: 4px;
+}
+.mainmenu1 {
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 15%;
+    height: 50vh;
+    
+}
+h2 {
+    text-align: center;
+    grid-column: 1 / span 3;
+    
+    font-size: 1rem;
+    margin: 10px 0 20px 0;
+}
+.photo {
+    background-color: #899cb8;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 1px black solid;
+    
+}
+.points1 {
+    font-size: 2rem;
+    text-align: center;
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    
+}
+
+.mainmenu2 {
+    
+    background-color: #f1f1f1;
+    
+
+}
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    grid-column: 1 / span 3;
+    margin: 10px 0 40px 0;
+}
+.photo2 {
+    background-color: #ffffff;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 1px black solid;
+    
+}
+.mainmenu2 p {
+    height: 40px;
+    width: 200px;
+    margin: auto;
+    font-size: 0.6rem;
+    
+    padding-left: 25px;
+    
+}
+h4 {
+    
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+   
+
+}
+.information {
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15%;
+    
+
+}
+.information p {
+    height: 250px;
+    width: 300px;
+    font-size: 0.8rem;
+    color: #d9d9d9;
+}
+.information .photo-img {
+    background-color: #d9d9d9;
+    height: 250px;
+    width: 300px;
+
+}
+.searching {
+    background-color: black;
+    display: flex;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.button-searching {
+    background-color: #969696;
+    border: none;
+    width: 180px;
+    height: 30px;
+}
+.searching input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 20px;
+}
+.contact {
+    margin: 0 10vw 0 10vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.date {
+
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 0.7fr 1fr 0.7fr 5fr 1fr;
+    gap: 5px;
+}
+footer {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer div {
+    background-color: #899cb8 ;
+    height: 20px;
+    width: 150px;    
+}

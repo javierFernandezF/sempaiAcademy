@@ -1,0 +1,32 @@
+body {
+    height: 50vh;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    
+}
+* {
+    border: #ffffff 5px solid;
+}
+header {
+    background-color: aqua;
+    grid-column: span 3;
+    grid-row: 1;
+    
+}
+nav {
+    background-color: rgb(150, 28, 250);
+    grid-row: span 3
+}
+article {
+    background-color: rgb(125, 226, 10);
+}
+.ads {
+    background-color: rgb(247, 10, 10);
+}
+footer {
+    background-color: rgb(146, 12, 2);
+    grid-column: span 2;
+    margin: 0;
+}

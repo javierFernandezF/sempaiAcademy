@@ -1,0 +1,135 @@
+:root {
+  --blue: #012c8f;
+  --red: #c00c30;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 250vh;
+  display: grid;
+  grid-template-rows: 1fr 10fr 8fr 8fr 8fr 3fr 8fr 2fr;
+}
+header {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 4fr 6fr 0.5fr;
+  grid-template-areas: "x1 logo x2 nav x3";
+  padding: 12px 0;
+  background-color: var(--blue);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20%;
+  background-image: url("/cn.jpg");
+  background-position: center;
+  object-fit: cover;
+}
+.info1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  background-color: #233977;
+}
+.info2 {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.info3 {
+}
+.searching {
+  background-color: var(--blue);
+}
+.contact {
+}
+footer {
+  background-color: var(--red);
+}
+
+/*header*/
+
+nav {
+  grid-area: nav;
+}
+header img {
+  grid-area: logo;
+  width: 50%;
+}
+ul {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  color: white;
+  font-size: 0.8rem;
+}
+ul a {
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+/*main*/
+
+h1 {
+  margin: 5%;
+  background-color: #c00c30;
+  color: white;
+}
+main p {
+  background-color: #233977;
+  color: white;
+}
+
+/*info1*/
+
+.info1 img {
+  background-color: #dfdbe5;
+  border: 1px var(--red) solid;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/*info2*/
+
+.info2 > div {
+  background-color: transparent;
+  margin: auto;
+  border: 1px var(--red) solid;
+  border-radius: 10px;
+}
+
+.info2 > div > img {
+  margin: 0;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.info2 > div > p {
+  background-color: var(--red);
+  color: #dfdbe5;
+  text-align: center;
+  margin: 0;
+  border: 1px var(--red) solid;
+  border-radius: 0px 0px 8px 8px;
+}
+
+/*info3*/
+h2 {
+  text-align: center;
+  background-color: var(--blue);
+  color: white;
+  margin: auto;
+}

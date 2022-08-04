@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+.container {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.div1 {
+    background-color: aliceblue;
+    grid-column: span 3;
+}
+.div2 {
+    background-color: black;
+    grid-row: 2 / span 2;
+}
+.div3 {
+    background-color: brown;
+}
+.div4 {
+    background-color: coral;
+    grid-column: 1;
+}
+.div5 {
+    background-color: darkblue;
+    grid-column: span 2;
+    
+}
