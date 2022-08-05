@@ -301,7 +301,7 @@
     Se ingresa el valor del producto (múltiplo de 5).
     Se ingresa el dinero entregado en la máquina.
     Se debe imprimir cuantas monedas de 10 y cuántas de 5 hay que entregar.
-    En caso que el cambio no alcance se imprime “no hay cambio suficiente”*/
+    En caso que el cambio no alcance se imprime “no hay cambio suficiente”
 
     let product = parseInt(prompt("Ingrese valor del producto."));
     let money = parseInt(prompt("Ingresar dinero entregado."));
@@ -332,10 +332,19 @@
                 console.log("El cambio seran 30 monedas de 10 mas " + ((subtraction-300)/5) + " monedas de 5.")
             }
         }
+*/
+        
+/*Ejercicio 19
 
-        /*fgrfgrs*/
+        
 
+        let a = parseInt(prompt("Ingrese valor a"))      
+        let b = parseInt(prompt("Ingrese valor b"))        
+        let c = parseInt(prompt("Ingrese valor c"))
+        let subtraction = a - c
+        let area = (b*c) + (subtraction*c)/2
 
+        console.log("El area de el terreno es: " + (area) + " metros cuadrados.")*/
 
 
 
