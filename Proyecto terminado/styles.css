@@ -1,0 +1,750 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+main {
+  z-index: 0;
+}
+
+nav {
+  height: 10vh;
+  background-color: white;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(/Materiales/manos.jpg);
+  height: 73vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-titulo {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+}
+.header-parrafo {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+}
+main {
+  height: 90vh;
+  /* background-color: #5398ff; */
+  padding: 5%;
+}
+.soluciones {
+  height: 90vh;
+  background-color: #5398ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  padding: 5% 15%;
+  gap: 5%;
+}
+
+.titulo-soluciones {
+  font-size: 1.2rem;
+  padding: 10% 0% 0% 0%;
+}
+.p-soluciones {
+  font-size: 0.8rem;
+  padding: 10% 0%;
+}
+.imagen-soluciones1 {
+  background-image: url(/Materiales/oficina.png);
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center;
+}
+.imagen-soluciones2 {
+  background-image: url(/Materiales/voluntariado.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.oportunidades {
+  height: 50vh;
+  text-align: center;
+  padding: 2% 15%;
+  background-color: #fafafa;
+  display: grid;
+  grid-template-rows: 1fr 2fr 5fr;
+}
+.titulo-oportunidades {
+  font-size: 1.3rem;
+}
+.p-oportunidades {
+  font-size: 0.8rem;
+  padding: 2% 12% 0% 12%;
+}
+
+.caja-oportunidades {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 190px 190px 190px 190px;
+  grid-template-rows: 190px;
+  justify-content: space-around;
+}
+.caja {
+  border-radius: 15px;
+  border: none;
+  min-width: 180px;
+  min-height: 180px;
+}
+.icono {
+  max-width: 50px;
+  position: relative;
+  right: 40px;
+}
+.icono-rojo {
+  width: 23px;
+}
+.rojo {
+  background-color: #dc3546;
+}
+.amarillo {
+  background-color: #fb9b08;
+}
+.verde {
+  background-color: #429a00;
+}
+.celeste {
+  background-color: #17a2b7;
+}
+.mas {
+  width: 10%;
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+}
+.mas-llamados {
+  width: 10%;
+  position: relative;
+  left: 40px;
+  bottom: 6px;
+}
+
+.caja p {
+  color: white;
+  position: relative;
+  top: 35px;
+  font-size: 1.2rem;
+  right: 20px;
+}
+
+.noticias {
+  height: 80vh;
+  background-color: #5398ff;
+}
+.contacto {
+  padding: 5% 10% 10% 10%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  background-color: #fafafa;
+  gap: 25px;
+}
+.fotocontacto {
+  background-image: url(/Materiales/laptop-escritorio.jpg);
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.inputscontacto {
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.row1contacto {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+}
+.row2col1contacto {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+.row2col2contacto {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+.row3contacto {
+  grid-row: 3 / 4;
+  grid-column: 1 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputscontacto p {
+  margin: 5px 0;
+}
+.inputscontacto h2 {
+  margin: 5px 0;
+  text-align: center;
+}
+.inputscontacto input {
+  width: 300px;
+  border: rgb(180, 178, 178) solid 1px;
+  border-radius: 8px;
+}
+.buttoncontacto {
+  border: none;
+  color: white;
+  background-color: #5227cc;
+  padding: 3px 20px;
+  border-radius: 20px;
+  font-weight: 300;
+  width: 100px;
+  margin: 5px;
+}
+.mensajecontacto {
+  height: 85px;
+  resize: none;
+  border-radius: 8px;
+  width: 300px;
+  border: rgb(180, 178, 178) solid 1px;
+}
+footer {
+  height: 25.15vh;
+  display: grid;
+  grid-template-rows: 1vh 19.9vh 4vh;
+  row-gap: 0.15vh;
+  color: white;
+}
+footer p {
+  margin: 0;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.seguinosfooter li {
+  float: left;
+}
+footer li a {
+  text-decoration: none;
+  color: white;
+  /* display: block; */
+  padding: 0.2vh;
+}
+footer li a:hover {
+  color: gray;
+}
+.lineafooter {
+  background-color: #5227cc;
+}
+.navfooter {
+  padding: 0 10%;
+  display: grid;
+  grid-template-columns: 30fr 80fr 30fr;
+  background: linear-gradient(90deg, #7749f8 0%, #5227cc 100%);
+}
+.logofooter {
+  margin-top: 4vh;
+  margin-left: 10vh;
+  align-items: center;
+}
+.nosotrosfooter {
+  margin-top: 4vh;
+  margin-left: 5vh;
+}
+.seguinosfooter {
+  margin-top: 4vh;
+  margin-right: 10vh;
+}
+.copyright {
+  color: #5227cc;
+  background: linear-gradient(90deg, #7749f8 0%, #5227cc 100%);
+  text-align: center;
+}
+
+.navStyle {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 2fr 4fr 5fr 5fr 2fr 2fr;
+  grid-template-rows: auto;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.navStyle img {
+  width: 150px;
+  height: auto;
+  grid-column: 2;
+  display: flex;
+  justify-content: left;
+}
+
+.navStyle ul {
+  grid-column: 3;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.navStyle li {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  padding: auto 20px;
+}
+
+.navStyle a {
+  text-decoration: none;
+  color: black;
+}
+
+.navStyle button {
+  grid-column: 5;
+  background-color: #5227cc;
+  color: white;
+  border-radius: 20px;
+  border-color: #5227cc;
+  height: 30px;
+  width: 120px;
+}
+
+.modalStyle {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.botonCelu {
+  display: none;
+}
+.listaCelu {
+  display: none;
+}
+
+.close {
+  float: right;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ventana-emergente {
+  width: 600px;
+  height: 400px;
+  border: 1px white solid;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: none;
+}
+
+.ventana-emergente-foto {
+  background-image: url(./Materiales/imagen-modal.JPG);
+  background-size: cover;
+  background-color: white;
+  border-radius: 9px 0px 0px 9px;
+  /* z-index: -1;*/
+}
+.ventana-emergente-opciones {
+  background-color: #fafafa;
+  border-radius: 0px 10px 10px 0px;
+}
+.ventana-emergente-botones {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+.volver-atras,
+.span {
+  color: #bdc0c0;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 0.7rem;
+}
+.volver-atras {
+  width: 100px;
+}
+.ventana-imagen-boton {
+  transform: rotate(180deg);
+  color: #bdc0c0;
+  width: 15px;
+  padding-bottom: 2px;
+  opacity: 0.7;
+}
+.span {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.ventana-emergente-titulo {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.granboton {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.034);
+  margin: 15px 20px;
+  height: 100px;
+}
+
+.ventana-emergente-titulo1 {
+  font-size: 1rem;
+  color: #5597ff;
+  padding: 5px 0px;
+}
+.ventana-emergente-titulo2 {
+  font-size: 1rem;
+  color: #7948fa;
+  padding: 5px 0px;
+}
+.granboton p {
+  font-size: 0.75rem;
+  color: #cdd1d4;
+}
+.maletin {
+  background-color: #5597ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0px 0px 5px;
+}
+.maletin img {
+  width: 25px;
+}
+.persona {
+  background-color: #7948fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0px 0px 5px;
+}
+.persona img {
+  width: 20px;
+}
+.granboton-texto {
+  padding: 0px 10px;
+  height: 100px;
+}
+.flecha {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  opacity: 0.5;
+  left: 170px;
+  top: -15px;
+}
+.titulo-noticia-principal {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+.noticias-a {
+  color: white;
+  text-align: center;
+  display: block;
+}
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px 50px;
+  padding: 20px;
+  gap: 5px;
+}
+.tarjeta {
+  display: grid;
+  grid-template-rows: 0.9fr 1.2fr;
+  border-radius: 10px;
+}
+.foto1 {
+  background-image: url(/Materiales/perros.jfif);
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+  background-position: center;
+}
+.foto2 {
+  background-image: url(/Materiales/construyendo-casa.jfif);
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+  background-position: center;
+}
+.foto3 {
+  background-image: url(/Materiales/jesuitas.jfif);
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+  background-position: center;
+}
+.foto4 {
+  background-image: url(/Materiales/casa-madera.jfif);
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+  background-position: center;
+}
+.info-noticias {
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+  padding: 5px 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 4fr 1fr;
+}
+.fechatiempo {
+  display: flex;
+  justify-content: space-between;
+}
+.titulo-noticia {
+  font-size: 1rem;
+  font-weight: 800;
+}
+.vermas {
+  display: block;
+  text-align: end;
+}
+.puntos {
+  color: white;
+  font-size: 8rem;
+  text-align: center;
+
+  grid-column: 1/5;
+}
+@media (max-width: 1100px) {
+  .noticias {
+    height: 100vh;
+  }
+  .grid-conteiner {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    padding: 20px 20px;
+  }
+
+  .puntos {
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+  .oportunidades {
+    height: 75vh;
+  }
+  .caja-oportunidades {
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 180px 180px;
+    row-gap: 5%;
+  }
+}
+@media (max-width: 700px) {
+  #app {
+    width: 100%;
+  }
+  .noticias {
+    height: 190vh;
+    padding-right: 10px;
+  }
+  .grid-conteiner {
+    height: 100%;
+    width: 100vw;
+    grid-template-columns: 100%;
+    grid-template-rows: 22% 22% 22% 22%;
+    gap: 10px;
+    padding: auto;
+    align-content: center;
+  }
+  .puntos {
+    display: none;
+  }
+  .contacto {
+    padding: 5% 10% 10% 10%;
+    grid-template-rows: 5fr 5fr;
+    width: 100vw;
+    grid-template-columns: 50fr;
+    height: 80vh;
+  }
+  .fotocontacto {
+    background-image: url(/Materiales/laptop-escritorio.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .inputscontacto {
+    display: grid;
+    grid-template-rows: 15% 35% 35% 15%;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .row1contacto {
+    grid-row: 1 / 2;
+    grid-column: 1;
+  }
+  .row2col1contacto {
+    grid-row: 2 / 3;
+    grid-column: 1;
+  }
+  .row2col2contacto {
+    grid-row: 3 / 4;
+    grid-column: 1;
+  }
+  .row3contacto {
+    grid-row: 4 / 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer {
+    height: 35vh;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    row-gap: 0.15vh;
+    color: white;
+  }
+  .navfooter {
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .logofooter {
+    margin-top: 20px;
+    margin-left: 0;
+    align-items: center;
+  }
+  .nosotrosfooter {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .seguinosfooter {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .oportunidades {
+    height: 120vh;
+    grid-template-rows: 0.5fr 1fr 7fr;
+  }
+  .caja-oportunidades {
+    width: 100%;
+    grid-template-columns: 180px;
+    grid-template-rows: 180px 180px 180px 180px;
+    gap: 2%;
+  }
+  .caja {
+    border-radius: 15px;
+    border: none;
+    min-width: 180px;
+    min-height: 180px;
+  }
+  .soluciones {
+    height: 110vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.7fr 1fr 0.7fr;
+    padding: 0;
+    padding: 20px 20px 0px 20px;
+    gap: 10px;
+  }
+  .imagen-soluciones2 {
+    grid-row: 3/4;
+    border-radius: 5px;
+  }
+  .imagen-soluciones1 {
+    border-radius: 5px;
+  }
+  .texto-soluciones {
+    padding-left: 5px;
+  }
+
+  .listaCompu li {
+    display: none;
+  }
+
+  .botonCompu {
+    display: none;
+  }
+
+  .navStyle {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .botonCelu {
+    display: block;
+    grid-column: 3;
+    width: 50px !important;
+  }
+
+  .navStyle img {
+    grid-column: 2;
+  }
+
+  .listaCelu.show {
+    display: block;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  .listaCelu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+    list-style: none;
+  }
+
+  .listaCelu li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .botonIngresarCelu {
+    background-color: #5227cc;
+    color: white;
+    font-size: smaller;
+    border-radius: 20px;
+    border-color: #5227cc;
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+  }
+  .ventana-emergente {
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 350px;
+    width: 80%;
+    position: absolute;
+    top: 400px;
+    height: 750px;
+    display: none;
+  }
+  .ventana-emergente-foto {
+    background-position: center;
+    border-radius: 9px 9px 0px 0px;
+  }
+  .ventana-emergente-opciones {
+    border-radius: 0px 0px 9px 9px;
+  }
+  .inputscontacto input {
+    width: 100%;
+  }
+  .mensajecontacto {
+    width: 100%;
+  }
+}

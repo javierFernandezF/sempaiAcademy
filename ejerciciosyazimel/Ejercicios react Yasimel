@@ -1,0 +1,19 @@
+Consigna: generar un proyecto nuevo de react.
+
+Ejercicio 1: 
+/Construir dos componentes que interactúen entre sí:
+	-Primer componente: que tenga un input y un botón.
+	-Segundo componente: que tenga un textarea
+Hacer que al pulsar el botón del primer componente, el textarea muestre lo que dice el input en ese momento.
+
+Ejercicio 2:
+/Construir 4 cuadrados iguales con diferentes colores, cuando se haga click en cualquiera de estos cuadrados, el color de ese mismo cuadrado tiene que cambiar.
+
+
+Ejercicio 4: 
+/Crear un contador: hacer que se muestre un display inicialmente empezado en 0 y que al clickear en un botón que muestre un + se le sume uno al display
+ y análogamente con un botón que muestre un - .
+
+Ejercicio 7: 
+/Generar un form que al "submittear" muestre en pantalla todos los datos que se agregaron. 
+Generar una lista de datos agregados en un componente aparte al del Form.

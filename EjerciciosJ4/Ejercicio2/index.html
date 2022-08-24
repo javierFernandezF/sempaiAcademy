@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="clave">Clave</label>
+      <input id="input" type="text" placeholder="Ingresar clave..." />
+      <button id="boton">Boton!</button>
+    </form>
+    <script>
+      // Solicitar que se ingrese el nombre y la clave de un usuario. Mostrar una ventana de
+      // alerta si en la clave se ingresan menos de 7 caracteres o más de 20
+      // (capturar el evento onBlur)
+      //CON EL SIGUIENTE CODIGO ES POSIBLE VALIDAR LA CLAVE
+      //AL MOMENTO DE QUITAR EL CURSOR DEL INPUT
+      let contrasena = (document.querySelector("input").onblur = verificate);
+
+      function verificate() {
+        // document.querySelector("input");
+        let gg = document.querySelector("input").value;
+        if (gg.length < 7 || gg.length > 20) {
+          alert("La clave tiene un numero incompatible de caracteres");
+          return;
+        }
+
+        alert("Clave aceptada");
+      }
+
+      let pressButtom = document.querySelector("boton");
+
+      //   CON EL SIGUIENTE CODIGO ES POSIBLE INICIAR EL EVENTO AL APRETAR EL BOTON
+
+      let verificate2 = () => {
+        let password = document.getElementById("input").value.length;
+        if (password < 7 || password > 20) {
+          alert("La clave tiene un numero incompatible de caracteres");
+          return;
+        }
+        alert("Clave aceptada");
+      };
+
+      document.getElementById("boton").addEventListener("click", verificate2);
+    </script>
+  </body>
+</html>

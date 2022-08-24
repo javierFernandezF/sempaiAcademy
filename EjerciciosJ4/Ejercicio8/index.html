@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: red;
+        margin: 0px;
+      }
+      body {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="titulo">Cambia color</h1>
+    <div class="grid"></div>
+  </body>
+  <script>
+    /*Elaborar un programa que muestre un div de color rojo.
+        Cuando se presione cambiar el color a amarillo y luego de
+        soltar el botón del mouse volver a pintar de rojo.
+        const titulo = document.getElementById("titulo");
+    */
+
+    titulo.addEventListener("mousedown", function () {
+      titulo.style.color = "yellow";
+      titulo.addEventListener("mouseup", function () {
+        titulo.style.color = "red";
+      });
+    });
+    /*Elaborar un programa que cambie el color y el bgc al pasar
+        por encima el mouse, luego al salir volver a las condiciones iniciales*/
+
+    titulo.addEventListener("mousemove", function () {
+      titulo.style.color = "red";
+      titulo.style.backgroundColor = "black";
+    });
+    titulo.addEventListener("mouseleave", function () {
+      titulo.style.color = "black";
+      titulo.style.backgroundColor = "white";
+    });
+  </script>
+</html>

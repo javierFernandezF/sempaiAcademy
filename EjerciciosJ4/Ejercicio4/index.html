@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #conteiner {
+        background-color: brown;
+        width: 600px;
+        height: 300px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="blockAppear()">Abrir ventana</button>
+    <button onclick="blockDisappear()">cerrar ventana</button>
+    <button onclick="gg()">dgfdsg</button>
+    <div id="conteiner">gfdgfdg</div>
+  </body>
+  <script>
+    /*confeccionar una página que permita abrir otra ventana
+    cuando se presiona un botón. Dicha ventana debe tener como
+    ancho 600 pxeles y alto 300px.*/
+    let gg = () => {
+      if (document.getElementById("conteiner").style.display == "none") {
+        document.getElementById("conteiner").style.display = "block";
+      } else {
+        document.getElementById("conteiner").style.display = "none";
+      }
+    };
+    function blockAppear() {
+      document.getElementById("conteiner").style.display = "block";
+    }
+    function blockDisappear() {
+      document.getElementById("conteiner").style.display = "none";
+    }
+  </script>
+</html>
